@@ -10,7 +10,7 @@ torch.set_printoptions(sci_mode=False, edgeitems=5)
     # find the right model; develop stopping procedure to stop training (when does overfitting start?) - maybe not
     # estimate model on full data? (when we have stopping procedure we need validation data)
     # save into csv: DV, treatment variable, model predictions
-    # use R to run regression
+    # use R: run regression
 
 # data source: https://vincentarelbundock.github.io/Rdatasets/datasets.html
 mydata = pd.read_csv("data/DoctorVisits-Column1.csv")
